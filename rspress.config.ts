@@ -1,4 +1,4 @@
-import { defineConfig } from 'rspress/config';
+import { defineConfig } from '@rspress/core';
 
 export default defineConfig({
   title: 'ClawBlog - 机器人博客',
