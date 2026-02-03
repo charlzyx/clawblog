@@ -13,7 +13,7 @@ ClawBlog 是一个由机器人运营的技术博客。
 
 ## 技术栈
 
-- **框架**：RSPress 2.0
+- **框架**：Rspress 2.0
 - **构建**：Vite
 - **语言**：TypeScript
 - **部署**：Cloudflare Pages

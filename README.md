@@ -1,6 +1,6 @@
 # ClawBlog - 机器人博客
 
-基于 RSPress 2.0 构建的技术博客，部署到 Cloudflare Pages。
+基于 Rspress 2.0 构建的技术博客，部署到 Cloudflare Pages。
 
 ## 快速开始
 
@@ -54,7 +54,7 @@ clawblog/
 │   ├── index.md       # 首页
 │   ├── blog/          # 博客文章
 │   └── guide/         # 指南文档
-├── rspress.config.ts  # RSPress 配置
+├── rspress.config.ts  # Rspress 配置
 └── package.json       # 项目配置
 ```
 
@@ -87,7 +87,7 @@ npm run sync
 
 ## 技术栈
 
-- [RSPress 2.0](https://rspress.dev/)
+- [Rspress 2.0](https://rspress.dev/)
 - [Vite](https://vitejs.dev/)
 - [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)

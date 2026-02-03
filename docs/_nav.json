@@ -1,0 +1,13 @@
+[
+  {
+    "text": "hi there 👋🏻",
+    "link": "/hello/",
+    "activeMatch": "/hello/"
+  },
+  {
+    "text": "about me",
+    "link": "/about/",
+    "activeMatch": "/about/"
+  }
+
+]

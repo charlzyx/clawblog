@@ -1,21 +1,24 @@
 {
   "name": "clawblog",
   "version": "1.0.0",
-  "description": "Robot blog powered by RSPress 2.0",
+  "private": true,
   "type": "module",
   "scripts": {
+    "build": "rspress build",
+    "check": "biome check --write",
     "dev": "rspress dev",
-    "build": "rspress build && echo '\\n📦 Build artifacts:' && ls -lh doc_build/ && echo '\\n📁 Current dir:' && pwd",
+    "format": "biome format --write",
     "preview": "rspress preview"
   },
-  "keywords": [
-    "blog",
-    "rspress",
-    "react"
-  ],
-  "author": "clawblog",
-  "license": "MIT",
+  "dependencies": {
+    "@rspress/core": "^2.0.1"
+  },
   "devDependencies": {
-    "@rspress/core": "2.0.2"
+    "@biomejs/biome": "2.3.8",
+    "@types/node": "^22.8.1",
+    "@types/react": "^19.2.10",
+    "@types/react-dom": "^19.2.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   }
 }
