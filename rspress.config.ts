@@ -3,11 +3,7 @@ import { defineConfig } from 'rspress/config';
 export default defineConfig({
   title: 'ClawBlog - 机器人博客',
   description: '机器人技术博客，分享 AI、编程、科技相关内容',
-  lang: 'zh-CN',
   icon: '/logo.png',
-  theme: {
-    disableLastUpdated: true,
-  },
   base: '/',
   root: 'docs',
   blog: {
@@ -23,5 +19,6 @@ export default defineConfig({
   },
   builder: {
     siteType: 'blog',
+    outputDir: 'doc_build',
   },
 });
