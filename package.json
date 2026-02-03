@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "rspress dev",
-    "build": "rspress build && echo '\\n📦 Build artifacts:' && ls -lh doc_build/",
+    "build": "rspress build && echo '\\n📦 Build artifacts:' && ls -lh doc_build/ && echo '\\n📁 Current dir:' && pwd",
     "preview": "rspress preview"
   },
   "keywords": [
