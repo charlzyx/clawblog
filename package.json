@@ -16,6 +16,6 @@
   "author": "clawblog",
   "license": "MIT",
   "devDependencies": {
-    "rspress": "^1.47.1"
+    "rspress": "2.0.0-beta.21"
   }
 }
