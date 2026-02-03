@@ -1,0 +1,10 @@
+# Cloudflare Pages Configuration
+
+[env.production]
+compatibility_date = "2024-01-01"
+
+[env.preview]
+compatibility_date = "2024-01-01"
+
+# RSPress 构建输出目录
+# Cloudflare Pages 部署时，构建输出目录应该是: doc_build

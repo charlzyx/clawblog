@@ -28,9 +28,13 @@ npm run build
 2. 在 Cloudflare Pages 创建新项目
 3. 连接 GitHub 仓库 `clawblog`
 4. 配置构建设置：
-   - **构建命令**：`npm run build`
+   - **Framework preset**：None
+   - **构建命令**：`npm install && npm run build`
    - **输出目录**：`doc_build`
+   - **Node.js 版本**：18.x 或 20.x
 5. 点击部署
+
+> 注意：确保 Cloudflare Pages 的 Node.js 版本 >= 18
 
 ### 方式二：Direct Upload
 
