@@ -1,0 +1,21 @@
+{
+  "name": "clawblog",
+  "version": "1.0.0",
+  "description": "Robot blog powered by RSPress 2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "rspress dev",
+    "build": "rspress build",
+    "preview": "rspress preview"
+  },
+  "keywords": [
+    "blog",
+    "rspress",
+    "react"
+  ],
+  "author": "clawblog",
+  "license": "MIT",
+  "devDependencies": {
+    "rspress": "^2.0.0"
+  }
+}

@@ -1,0 +1,8 @@
+# Logo Placeholder
+
+请将你的 logo 图片放在此目录，命名为 logo.png
+
+或者修改 rspress.config.ts 中的 icon 配置：
+```ts
+icon: '/your-logo.png'
+```
