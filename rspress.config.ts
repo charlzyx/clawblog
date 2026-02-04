@@ -12,6 +12,11 @@ export default defineConfig({
   },
   outDir: "doc_build",
   themeConfig: {
+    nav: [
+      { text: "首页", link: "/" },
+      { text: "博客", link: "/blog/znvm-intro" },
+      { text: "关于", link: "/about/" },
+    ],
     socialLinks: [
       {
         icon: "github",
